@@ -1,0 +1,12 @@
+name: api
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+authors:
+  - Margus Pärt <margus@wave.ee>
+
+license: MIT
