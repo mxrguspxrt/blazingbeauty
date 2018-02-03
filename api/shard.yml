@@ -2,9 +2,13 @@ name: api
 version: 0.1.0
 
 dependencies:
+
   kemal:
     github: kemalcr/kemal
     branch: master
+
+  rethinkdb:
+    github: CubosTecnologia/rethinkdb.cr
 
 authors:
   - Margus Pärt <margus@wave.ee>

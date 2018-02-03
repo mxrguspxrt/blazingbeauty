@@ -1,0 +1,4 @@
+.errors-component
+  each errors as |error|
+    .error
+      = t error

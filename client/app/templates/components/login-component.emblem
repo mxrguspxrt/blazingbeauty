@@ -1,0 +1,13 @@
+.login-component
+
+  = input-component label=(t 'Email') value=props.email errors=props.errors.email
+  = input-component label=(t 'Password') value=props.password errors=props.errors.password
+
+  .success-button-component{ action 'login' }
+    = t 'Log in'
+
+  .centered
+    = t 'Don not have an account?'
+    = t ' '
+    .underlined
+      = t 'Register'

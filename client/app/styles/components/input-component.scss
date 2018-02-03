@@ -1,0 +1,12 @@
+.input-component {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  label {
+    text-transform: uppercase;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+  }
+}

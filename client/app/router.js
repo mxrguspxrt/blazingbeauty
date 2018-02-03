@@ -8,6 +8,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('index', { path: '/' })
+  this.route('login', { path: '/login' })
+  this.route('register', { path: '/register' })
 })
 
 export default Router

@@ -1,0 +1,5 @@
+.input-component
+  label
+    = label
+  = input value=value key-up='inputChanged'
+  = errors-component errors=errors

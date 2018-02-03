@@ -1,0 +1,7 @@
+.header-component
+  if props.loggedIn
+    = t 'Logged in as'
+    = t ' '
+    = props.currentUser.name
+  else
+    = t 'Not logged in'
